@@ -1,6 +1,6 @@
 # Inherit some common Lineage stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -13,7 +13,7 @@ $(call inherit-product, device/bq/zangyapro/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := zangyapro
-PRODUCT_NAME := lineage_zangyapro
+PRODUCT_NAME := lmodroid_zangyapro
 PRODUCT_BRAND := bq
 PRODUCT_MODEL := Aquaris X2 Pro
 PRODUCT_MANUFACTURER := bq
